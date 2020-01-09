@@ -3,6 +3,16 @@
 This package exposes a map of symbol name to character code for SF Symbols.
 
 
+## Usage
+
+```js
+import symbols from 'sfsymbols';
+
+// Use characters as needed.
+`Here is a ${ symbols['pencil'] }`.
+```
+
+
 ## Development
 
 To update the data, perform the following steps:
