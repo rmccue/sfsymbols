@@ -2,6 +2,8 @@
 
 This package exposes a map of symbol name to character code for SF Symbols.
 
+Note that this is the raw names and character data, not the visual representation of the symbols. You will still need a copy of the SF Symbols font, which is subject to the usage terms of SF Symbols.
+
 
 ## Usage
 
