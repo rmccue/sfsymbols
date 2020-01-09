@@ -10,12 +10,16 @@
   "devDependencies": {
     "@babel/cli": "^7.7.7",
     "@babel/core": "^7.7.7",
-    "babel-plugin-codegen": "^3.1.0"
+    "babel-plugin-codegen": "^3.1.0",
+    "typescript": "^3.7.4"
   },
   "scripts": {
-    "build": "babel --plugins codegen src/index.js -o index.js"
+    "build": "yarn run build:babel && yarn run build:types",
+    "build:babel": "babel --plugins codegen src/index.js -o index.ts",
+    "build:types": "tsc index.ts"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.ts"
   ]
 }
