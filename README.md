@@ -8,7 +8,7 @@ Note that this is the raw names and character data, not the visual representatio
 ## Usage
 
 ```js
-import symbols from 'sfsymbols';
+import symbols from '@rmccue/sfsymbols';
 
 // Use characters as needed.
 `Here is a ${ symbols['pencil'] }`.
